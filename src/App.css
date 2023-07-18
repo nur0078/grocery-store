@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.App {
+  width: 100%;
+  height: auto;
+  min-height: 100vh;
+  font-family: "Poppins", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+html,
+root,
+body {
+  padding: 0;
+  margin: 0;
+}
