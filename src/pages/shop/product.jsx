@@ -9,7 +9,7 @@ export const Product = (props) => {
   const cartItemCount = cartItems[id];
 
   return (
-    <div className="product">
+    <div className="product shadow-lg">
       <img src={productImage} />
       <div className="description">
         <p>
